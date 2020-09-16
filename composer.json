@@ -1,0 +1,20 @@
+{
+    "name": "cre-mer/larapress",
+    "license": "MIT",
+    "type": "project",
+    "author": "Jonas Merhej",
+    "description": "Clone any wordpress website.",
+    "autoload": {
+        "psr-4": {
+            "CreMer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CreMer\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
